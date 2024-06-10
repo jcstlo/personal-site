@@ -1,0 +1,19 @@
+div.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+div.header ul li, div.header p, div.header ul {
+    list-style-type: none;
+    display: inline;
+    padding: 0px;
+}
+
+div.header p {
+    margin-left: 20px;
+}
+
+div.header ul li {
+    margin-left: 20px;
+    margin-right: 20px;
+}

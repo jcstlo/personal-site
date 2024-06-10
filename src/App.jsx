@@ -1,6 +1,17 @@
+import './App.css'
+
 function App() {
   return (
     <>
+      <div class="header">
+        <p>Joseph Castillo</p>
+        <ul>
+          <li>about</li>
+          <li>now</li>
+          <li>projects</li>
+          <li>resume</li>
+        </ul>
+      </div>
       <h1>Hi! I'm Joseph.</h1>
       <p>
         This is where I will fill in my personal description.
