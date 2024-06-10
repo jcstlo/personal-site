@@ -3,7 +3,7 @@ div.header {
     justify-content: space-between;
 }
 
-div.header ul li, div.header p, div.header ul {
+div.header ul li, div.header p, div.contact ul li {
     list-style-type: none;
     display: inline;
     padding: 0px;
@@ -14,6 +14,42 @@ div.header p {
 }
 
 div.header ul li {
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-right: 40px;
+}
+
+img.headshot {
+    width: 231px;
+    height: 210px;
+    margin-right: 200px;
+}
+
+div.main {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    margin-bottom: 150px;
+}
+
+div.main > div.text {
+    margin-left: 200px;
+    margin-right: 50px;
+}
+
+h2.contact {
+    text-align: center;
+}
+
+p.footer {
+    text-align: center;
+}
+
+img.contact-icon {
+    width: 51px;
+    height: 52px;
+}
+
+div.contact ul {
+    padding: 0px;
+    display: flex;
+    justify-content: center;
 }
