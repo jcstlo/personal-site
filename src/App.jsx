@@ -4,7 +4,7 @@ function App() {
   return (
     <>
       <div class="header">
-        <p>Joseph Castillo</p>
+        <p class="text-3xl font-bold underline">Joseph Castillo</p>
         <ul>
           <li>about</li>
           <li>now</li>
