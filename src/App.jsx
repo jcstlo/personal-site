@@ -5,15 +5,15 @@ function App() {
         <div class="max-w-5xl">
           <div class="flex justify-between mt-5">
             <p class="p-0 ml-5 inline-block align-text-bottom">Joseph Castillo</p>
-            <ul>
-              <li class="p-0 list-none inline mr-10">about</li>
-              <li class="p-0 list-none inline mr-10">now</li>
-              <li class="p-0 list-none inline mr-10">projects</li>
-              <li class="p-0 list-none inline mr-10">resume</li>
-              <li class="p-0 list-none inline mr-10">
+            <div class="flex">
+              <ul>
+                <li class="p-0 list-none inline mr-10">about</li>
+                <li class="p-0 list-none inline mr-10">now</li>
+                <li class="p-0 list-none inline mr-10">projects</li>
+                <li class="p-0 list-none inline mr-10">resume</li>
+              </ul>
               <span class="material-symbols-outlined"> light_mode </span>
-              </li>
-            </ul>
+            </div>
           </div>
           <div class="flex justify-between mt-24 mb-36">
             <div class="text mr-12 ml-16">
