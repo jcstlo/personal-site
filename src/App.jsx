@@ -4,7 +4,7 @@ function App() {
       <div class="flex justify-center">
         <div class="max-w-5xl">
           <div class="flex justify-between mt-5">
-            <p class="p-0 ml-5 inline-block align-text-bottom font-albert font-bold">Joseph Castillo</p>
+            <p class="p-0 ml-5 text-2xl inline-block align-text-bottom font-albert font-bold leading-none">Joseph Castillo</p>
             <div class="flex">
               <ul>
                 <li class="p-0 list-none inline mr-10 font-albert font-bold">about</li>
@@ -12,7 +12,7 @@ function App() {
                 <li class="p-0 list-none inline mr-10 font-albert font-bold">projects</li>
                 <li class="p-0 list-none inline mr-10 font-albert font-bold">resume</li>
               </ul>
-              <span class="material-symbols-outlined"> light_mode </span>
+              <span class="material-symbols-outlined mr-5"> light_mode </span>
             </div>
           </div>
           <div class="flex justify-between mt-24 mb-36">
