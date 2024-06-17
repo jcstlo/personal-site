@@ -24,13 +24,13 @@ function App() {
                 In my free time, you can find me playing ultimate, hiking, or working on projects.
               </p>
             </div>
-            <img class="w-60 h-52 mr-16 object-cover rounded-full" src="src/assets/me.jpg" alt="Personal site headshot placeholder"></img>
+            <img class="w-60 h-52 mr-16 object-cover rounded-full" src="me.jpg" alt="Personal site headshot placeholder"></img>
           </div>
           <div class="text-center">
             <h2 class="text-4xl pb-3 font-albert font-bold">Contact me!</h2>
             <div class="p-0 flex justify-center items-center">
-              <img class="contact-icon w-9 h-9" src="src/assets/github-logo.svg" alt="Placeholder Icon"></img>
-              <img class="contact-icon w-12 h-12" src="src/assets/linkedin-logo.svg" alt="Placeholder Icon"></img>
+              <img class="contact-icon w-9 h-9" src="github-logo.svg" alt="Placeholder Icon"></img>
+              <img class="contact-icon w-12 h-12" src="linkedin-logo.svg" alt="Placeholder Icon"></img>
             </div>
             <p class="mt-3 font-albert underline">joseph.cast0226@gmail.com</p>
           </div>
