@@ -1,7 +1,5 @@
 import Header from './Header';
-import Index from './Index';
-import ContactMe from './ContactMe';
-import Footer from './Footer';
+import { Outlet } from "react-router-dom";
 
 function App() {
   return (
@@ -9,9 +7,7 @@ function App() {
       <div class="flex justify-center">
         <div class="max-w-5xl">
           <Header></Header>
-          <Index></Index>
-          <ContactMe></ContactMe>
-          <Footer></Footer>
+          <Outlet />
         </div>
       </div>
     </>
