@@ -8,6 +8,7 @@ import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router-dom"
+import Project from './Projects.jsx'
 
 const router = createBrowserRouter([
   {
@@ -28,7 +29,7 @@ const router = createBrowserRouter([
       },
       {
         path: "projects",
-        element: <p class="w-[64rem] text-center font-albert font-bold text-3xl mt-48">Projects section is in progress!</p>
+        element: <Project />
       },
       {
         path: "resume",
