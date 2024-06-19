@@ -1,8 +1,19 @@
 import SkillCard from "./SkillCard"
 import ContactMe from "./ContactMe"
 import Footer from "./Footer"
+import { softwareSkills, hardwareSkills, mechanicalSkills } from "./Skills"
 
 function About() {
+  const softwareSkillCards = softwareSkills.map(skill =>
+    <SkillCard name={skill} />
+  );
+  const hardwareSkillCards = hardwareSkills.map(skill =>
+    <SkillCard name={skill} />
+  );
+  const mechanicalSkillCards = mechanicalSkills.map(skill =>
+    <SkillCard name={skill} />
+  );
+
   return (
     <>
       <div class="mt-24 mb-10 max-w-5xl">
@@ -19,30 +30,15 @@ function About() {
         <h2 class="text-4xl font-albert font-bold mt-7 mb-7">Skills</h2>
         <h3 class="text-2xl font-albert font-bold mt-7 mb-7">Software</h3>
         <div class="flex flex-wrap">
-          <SkillCard />
-          <SkillCard />
-          <SkillCard />
-          <SkillCard />
-          <SkillCard />
-          <SkillCard />
+          {softwareSkillCards}
         </div>
         <h3 class="text-2xl font-albert font-bold mt-7 mb-7">Hardware</h3>
         <div class="flex flex-wrap">
-          <SkillCard />
-          <SkillCard />
-          <SkillCard />
-          <SkillCard />
-          <SkillCard />
-          <SkillCard />
+          {hardwareSkillCards}
         </div>
         <h3 class="text-2xl font-albert font-bold mt-7 mb-7">Mechanical</h3>
         <div class="flex flex-wrap">
-          <SkillCard />
-          <SkillCard />
-          <SkillCard />
-          <SkillCard />
-          <SkillCard />
-          <SkillCard />
+          {mechanicalSkillCards}
         </div>
         <h2 class="text-4xl font-albert font-bold mt-7 mb-4">Projects</h2>
         <p class="font-albert font-normal text-xl mb-7">
