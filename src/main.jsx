@@ -26,6 +26,14 @@ const router = createBrowserRouter([
         path: "about",
         element: <About />,
       },
+      {
+        path: "projects",
+        element: <p class="w-[64rem] text-center font-albert font-bold text-3xl mt-48">Projects section is in progress!</p>
+      },
+      {
+        path: "resume",
+        element: <p class="w-[64rem] text-center font-albert font-bold text-3xl mt-48">Resume section is in progress!</p>
+      },
     ],
   },
 ]);
