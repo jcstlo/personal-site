@@ -8,7 +8,9 @@ function Header() {
       </div>
       <div class="flex">
         <ul>
-          <li class="p-0 list-none inline mr-10 font-albert font-bold">about</li>
+          <li class="p-0 list-none inline mr-10 font-albert font-bold">
+            <Link to={`about`}>about</Link>
+          </li>
           <li class="p-0 list-none inline mr-10 font-albert font-bold">
             <Link to={`now`}>now</Link>
           </li>

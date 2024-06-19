@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
 import Index from './Index.jsx'
 import Now from './Now.jsx'
+import About from './About.jsx'
 import {
   createBrowserRouter,
   RouterProvider,
@@ -20,7 +21,11 @@ const router = createBrowserRouter([
       {
         path: "now",
         element: <Now />,
-      }
+      },
+      {
+        path: "about",
+        element: <About />,
+      },
     ],
   },
 ]);
