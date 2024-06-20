@@ -33,7 +33,7 @@ const router = createBrowserRouter([
       },
       {
         path: "resume",
-        element: <p class="w-[64rem] text-center font-albert font-bold text-3xl mt-48">Resume section is in progress!</p>
+        element: <p class="text-center font-albert font-bold text-3xl mt-48">Resume section is in progress!</p>
       },
     ],
   },

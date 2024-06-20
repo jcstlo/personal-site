@@ -17,8 +17,8 @@ function About() {
   return (
     <>
       <div class="mt-24 mb-10 max-w-5xl">
-        <h1 class="text-5xl mb-7 font-albert font-bold">About Me</h1>
-        <p class="font-albert font-normal text-xl">
+        <h1 class="text-5xl mb-7 font-albert font-bold text-center sm:text-left ml-3">About Me</h1>
+        <p class="font-albert font-normal text-xl ml-3 mr-3">
           I am an aspiring software engineer located in Vancouver, BC. I'm a career transitioner from the semiconductor space. I am passionate about A, B, and C.<br/><br/>
 
           Most recently, I worked at Intel as an SoC Verification Engineer. Before that, I completed a bachelor's degree in Mechanical Engineering (Mechatronics specialization) at the University of British Columbia (UBC).<br/><br/>
@@ -27,21 +27,21 @@ function About() {
 
           In my free time, I do X, Y, and Z. I wrte about what I'm currently up to here. 
         </p>
-        <h2 class="text-4xl font-albert font-bold mt-7 mb-7">Skills</h2>
-        <h3 class="text-2xl font-albert font-bold mt-7 mb-7">Software</h3>
-        <div class="flex flex-wrap">
+        <h2 class="text-4xl font-albert font-bold mt-7 mb-7 text-center sm:text-left ml-3">Skills</h2>
+        <h3 class="text-2xl font-albert font-bold mt-7 mb-7 text-center sm:text-left ml-3">Software</h3>
+        <div class="flex flex-wrap justify-center">
           {softwareSkillCards}
         </div>
-        <h3 class="text-2xl font-albert font-bold mt-7 mb-7">Hardware</h3>
-        <div class="flex flex-wrap">
+        <h3 class="text-2xl font-albert font-bold mt-7 mb-7 text-center sm:text-left ml-3">Hardware</h3>
+        <div class="flex flex-wrap justify-center">
           {hardwareSkillCards}
         </div>
-        <h3 class="text-2xl font-albert font-bold mt-7 mb-7">Mechanical</h3>
-        <div class="flex flex-wrap">
+        <h3 class="text-2xl font-albert font-bold mt-7 mb-7 text-center sm:text-left ml-3">Mechanical</h3>
+        <div class="flex flex-wrap justify-center">
           {mechanicalSkillCards}
         </div>
-        <h2 class="text-4xl font-albert font-bold mt-7 mb-4">Projects</h2>
-        <p class="font-albert font-normal text-xl mb-7">
+        <h2 class="text-4xl font-albert font-bold mt-7 mb-4 text-center sm:text-left ml-3">Projects</h2>
+        <p class="font-albert font-normal text-xl mb-7 ml-3">
           You can find a list of my projects here!
         </p>
         <ContactMe />

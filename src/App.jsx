@@ -5,7 +5,7 @@ function App() {
   return (
     <>
       <div class="flex justify-center">
-        <div class="max-w-5xl">
+        <div class="max-w-5xl w-full">
           <Header></Header>
           <Outlet />
         </div>
