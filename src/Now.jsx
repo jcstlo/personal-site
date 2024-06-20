@@ -4,7 +4,7 @@ import Footer from "./Footer"
 function Now() {
   return (
     <>
-      <div class="mt-24 mb-10">
+      <div class="mb-10">
         <h1 class="text-5xl pb-7 font-albert font-bold text-center sm:text-left ml-3">What I'm Doing Now</h1>
         <p class="font-albert font-normal ml-3">This is a now page, inspired by Derek Sivers.</p>
         <ul class="mt-10 ml-10">

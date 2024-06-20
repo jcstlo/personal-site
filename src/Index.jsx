@@ -4,7 +4,7 @@ import Footer from './Footer';
 function Index() {
   return (
     <>
-      <div class="flex justify-between mt-24 mb-36 flex-col-reverse sm:flex-row items-center">
+      <div class="flex justify-between mb-36 flex-col-reverse sm:flex-row items-center">
         <div class="mr-12 ml-16">
           <h1 class="text-5xl pb-7 font-albert font-bold mt-9 sm:mt-0">Hi! I'm Joseph.</h1>
           <p class="text-xl font-albert font-normal">
