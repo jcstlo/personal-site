@@ -1,7 +1,8 @@
-import { useState } from 'react';
+import { useContext } from "react";
+import { DarkModeContext } from "./DarkModeContext";
 
 function ThemeButton() {
-  const [darkMode, setDarkMode] = useState(false);
+  const {darkMode, setDarkMode} = useContext(DarkModeContext);
 
   function toggleDarkMode() {
     if (darkMode) {
