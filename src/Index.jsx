@@ -6,7 +6,7 @@ function Index() {
     <>
       <div class="flex justify-between mb-36 flex-col-reverse sm:flex-row items-center">
         <div class="mr-12 ml-16">
-          <h1 class="text-5xl pb-7 font-albert font-bold mt-9 sm:mt-0">Hi! I'm Joseph.</h1>
+          <h1 class="text-5xl pb-7 font-albert font-bold mt-9 sm:mt-0 text-center sm:text-left">Hi! I'm Joseph.</h1>
           <p class="text-xl font-albert font-normal">
             I am an engineer located in Vancouver, Canada.<br></br><br></br>
             Currently, I am studying computer science with the aim of transitioning to software engineering, focusing on full-stack development.<br></br><br></br>

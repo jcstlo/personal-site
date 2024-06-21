@@ -8,20 +8,20 @@ function Header() {
       </div>
       <div class="flex">
         <ul>
-          <li class="p-0 list-none mr-10 font-albert font-bold inline">
+          <li class="p-0 list-none mr-7 sm:mr-10 font-albert font-bold inline">
             <Link to={`about`}>about</Link>
           </li>
-          <li class="p-0 list-none mr-10 font-albert font-bold inline">
+          <li class="p-0 list-none mr-7 sm:mr-10 font-albert font-bold inline">
             <Link to={`now`}>now</Link>
           </li>
-          <li class="p-0 list-none mr-10 font-albert font-bold inline">
+          <li class="p-0 list-none mr-7 sm:mr-10 font-albert font-bold inline">
             <Link to={`projects`}>projects</Link>
           </li>
-          <li class="p-0 list-none mr-10 font-albert font-bold inline">
+          <li class="p-0 list-none mr-7 sm:mr-10 font-albert font-bold inline">
             <Link to={`resume`}>resume</Link>
           </li>
         </ul>
-        <span class="material-symbols-outlined mr-5"> light_mode </span>
+        <span class="material-symbols-outlined mr-0 sm:mr-5"> light_mode </span>
       </div>
     </div>
   )
