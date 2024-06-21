@@ -658,6 +658,10 @@ video {
   height: 15rem;
 }
 
+.h-7 {
+  height: 1.75rem;
+}
+
 .h-9 {
   height: 2.25rem;
 }
@@ -676,6 +680,10 @@ video {
 
 .w-60 {
   width: 15rem;
+}
+
+.w-7 {
+  width: 1.75rem;
 }
 
 .w-72 {
@@ -843,11 +851,6 @@ video {
 .text-lightModeText {
   --tw-text-opacity: 1;
   color: rgb(53 53 53 / var(--tw-text-opacity));
-}
-
-.text-darkModeText {
-  --tw-text-opacity: 1;
-  color: rgb(249 249 249 / var(--tw-text-opacity));
 }
 
 .underline {
