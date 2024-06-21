@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import ThemeButton from "./ThemeButton";
 
 function Header() {
   return (
@@ -21,7 +22,9 @@ function Header() {
             <Link to={`resume`}>resume</Link>
           </li>
         </ul>
-        <span class="material-symbols-outlined mr-0 sm:mr-5"> light_mode </span>
+        <div class="mr-0 sm:mr-5">
+          <ThemeButton />
+        </div>
       </div>
     </div>
   )
