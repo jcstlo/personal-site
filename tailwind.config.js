@@ -7,6 +7,14 @@ export default {
         albert: 'Albert Sans, sans-serif',
       }
     },
+    textColor: {
+      'darkModeText': '#F9F9F9',
+      'lightModeText': '#353535',
+    },
+    backgroundColor: {
+      'darkModeBackground': '#1B1B1B',
+      'lightModeBackground': '#F9F9F9',
+    },
   },
   plugins: [],
   darkMode: 'selector',
