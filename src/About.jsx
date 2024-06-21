@@ -2,6 +2,7 @@ import SkillCard from "./SkillCard"
 import ContactMe from "./ContactMe"
 import Footer from "./Footer"
 import { softwareSkills, hardwareSkills, mechanicalSkills } from "./Skills"
+import { Link } from "react-router-dom";
 
 function About() {
   const softwareSkillCards = softwareSkills.map(skill =>
@@ -25,8 +26,8 @@ function About() {
 
           In 2024, I made the decision to transition to software engineering, and now I am currently enrolled in an online, accredited computer science degree, while working on personal projects on the side.<br/><br/>
 
-          In my free time, I do X, Y, and Z. I wrte about what I'm currently up to here. 
-        </p>
+          In my free time, I do X, Y, and Z. I wrte about what I'm currently up to <Link to={`../now`} class="font-bold underline">here.</Link>
+          </p>
         <h2 class="text-4xl font-albert font-bold mt-7 mb-7 text-center sm:text-left ml-3">Skills</h2>
         <h3 class="text-2xl font-albert font-bold mt-7 mb-7 text-center sm:text-left ml-3">Software</h3>
         <div class="flex flex-wrap justify-center">
@@ -42,7 +43,7 @@ function About() {
         </div>
         <h2 class="text-4xl font-albert font-bold mt-7 mb-4 text-center sm:text-left ml-3">Projects</h2>
         <p class="font-albert font-normal text-xl mb-7 ml-3">
-          You can find a list of my projects here!
+          You can find a list of my projects <Link to={`../projects`} class="font-bold underline">here!</Link>
         </p>
         <ContactMe />
         <Footer />
