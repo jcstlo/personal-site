@@ -3,7 +3,7 @@ import Footer from "./Footer"
 
 function Now() {
   return (
-    <>
+    <div class="animate-load-page">
       <div class="mb-10">
         <h1 class="text-5xl pb-7 font-albert font-bold text-center sm:text-left ml-3 text-lightModeText dark:text-darkModeText">What I'm Doing Now</h1>
         <p class="font-albert font-normal ml-3 text-lightModeText dark:text-darkModeText">This is a now page, inspired by Derek Sivers.</p>
@@ -18,7 +18,7 @@ function Now() {
       <p class="font-albert font-light mb-10 ml-3 text-lightModeText dark:text-darkModeText">Last updated: June 18, 2024</p>
       <ContactMe></ContactMe>
       <Footer></Footer>
-      </>
+      </div>
   )
 }
 

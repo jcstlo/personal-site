@@ -3,7 +3,7 @@ import Footer from './Footer';
 
 function Index() {
   return (
-    <>
+    <div class="animate-load-page">
       <div class="flex justify-between mb-10 flex-col-reverse sm:flex-row items-center">
         <div class="mr-3 ml-3 sm:mr-12 sm:ml-16">
           <h1 class="text-5xl pb-7 font-albert font-bold mt-9 sm:mt-0 text-center sm:text-left text-lightModeText dark:text-darkModeText">Hi! I'm Joseph.</h1>
@@ -17,7 +17,7 @@ function Index() {
       </div>
       <ContactMe></ContactMe>
       <Footer></Footer>
-    </>
+    </div>
   )
 }
 

@@ -5,7 +5,7 @@ import { placeholderProj } from "./ProjectData"
 
 function Project() {
   return (
-    <>
+    <div class="animate-load-page">
       <h1 class="text-5xl mb-7 font-albert font-bold text-center sm:text-left ml-3 text-lightModeText dark:text-darkModeText">Projects</h1>
       <div>
         <ProjectCard projectData={placeholderProj}/>
@@ -14,7 +14,7 @@ function Project() {
         <ContactMe />
         <Footer />
       </div>
-    </>
+    </div>
     
   )
 }

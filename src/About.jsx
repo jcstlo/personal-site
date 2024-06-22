@@ -16,7 +16,7 @@ function About() {
   );
 
   return (
-    <>
+    <div class="animate-load-page">
       <div class="max-w-5xl">
         <h1 class="text-5xl mb-7 font-albert font-bold text-center sm:text-left ml-3 text-lightModeText dark:text-darkModeText">About Me</h1>
         <p class="font-albert font-normal text-xl ml-3 mr-3 text-lightModeText dark:text-darkModeText">
@@ -48,7 +48,7 @@ function About() {
         <ContactMe />
         <Footer />
       </div>
-    </>
+    </div>
   )
 }
 
