@@ -7,6 +7,7 @@ function Project() {
   return (
     <div class="animate-load-page">
       <h1 class="text-5xl mb-7 font-albert font-bold text-center sm:text-left ml-3 text-lightModeText dark:text-darkModeText">Projects</h1>
+      <p class="text-xl mb-7 font-albert font-normal text-center sm:text-left ml-3 text-lightModeText dark:text-darkModeText">(Work in progress... just setting up the layout of this page!)</p>
       <div>
         <ProjectCard projectData={placeholderProj}/>
         <ProjectCard projectData={placeholderProj}/>
