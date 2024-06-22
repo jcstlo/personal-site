@@ -1,25 +1,29 @@
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import ThemeButton from "./ThemeButton";
 
 function Header() {
+  let activeLink = ({ isActive, isPending }) => {
+    return isActive ? "text-lightModeText dark:text-darkModeText underline" : "text-lightModeText dark:text-darkModeText";
+  }
+
   return (
     <div class="flex flex-col sm:flex-row sm:justify-between mt-5 mb-10 items-center">
       <div class="p-0 sm:ml-5 text-2xl inline-block align-text-bottom font-albert font-bold leading-none text-center mb-3 sm:mb-0">
-        <Link to={`/`} class="text-lightModeText dark:text-darkModeText">Joseph Castillo</Link>
+        <NavLink to={`/`} className={activeLink}>Joseph Castillo</NavLink>
       </div>
       <div class="flex">
         <ul>
           <li class="p-0 list-none mr-7 sm:mr-10 font-albert font-bold inline">
-            <Link to={`about`} class="text-lightModeText dark:text-darkModeText">about</Link>
+            <NavLink to={`about`} className={activeLink}>about</NavLink>
           </li>
           <li class="p-0 list-none mr-7 sm:mr-10 font-albert font-bold inline">
-            <Link to={`now`} class="text-lightModeText dark:text-darkModeText">now</Link>
+            <NavLink to={`now`} className={activeLink}>now</NavLink>
           </li>
           <li class="p-0 list-none mr-7 sm:mr-10 font-albert font-bold inline">
-            <Link to={`projects`} class="text-lightModeText dark:text-darkModeText">projects</Link>
+            <NavLink to={`projects`} className={activeLink}>projects</NavLink>
           </li>
           <li class="p-0 list-none mr-7 sm:mr-10 font-albert font-bold inline">
-            <Link to={`resume`} class="text-lightModeText dark:text-darkModeText">resume</Link>
+            <NavLink to={`resume`} className={activeLink}>resume</NavLink>
           </li>
         </ul>
         <div class="mr-0 sm:mr-5">
