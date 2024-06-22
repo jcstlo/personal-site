@@ -17,7 +17,7 @@ function About() {
 
   return (
     <>
-      <div class="mb-10 max-w-5xl">
+      <div class="max-w-5xl">
         <h1 class="text-5xl mb-7 font-albert font-bold text-center sm:text-left ml-3 text-lightModeText dark:text-darkModeText">About Me</h1>
         <p class="font-albert font-normal text-xl ml-3 mr-3 text-lightModeText dark:text-darkModeText">
           I am an aspiring software engineer located in Vancouver, BC. I'm a career transitioner from the semiconductor space. I am passionate about A, B, and C.<br/><br/>

@@ -4,8 +4,8 @@ import Footer from './Footer';
 function Index() {
   return (
     <>
-      <div class="flex justify-between mb-36 flex-col-reverse sm:flex-row items-center">
-        <div class="mr-12 ml-16">
+      <div class="flex justify-between mb-10 flex-col-reverse sm:flex-row items-center">
+        <div class="mr-3 ml-3 sm:mr-12 sm:ml-16">
           <h1 class="text-5xl pb-7 font-albert font-bold mt-9 sm:mt-0 text-center sm:text-left text-lightModeText dark:text-darkModeText">Hi! I'm Joseph.</h1>
           <p class="text-xl font-albert font-normal text-lightModeText dark:text-darkModeText">
             I am an engineer located in Vancouver, Canada.<br></br><br></br>
