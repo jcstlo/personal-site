@@ -12,6 +12,11 @@ function ProjectCard({projectData}) {
     iconsMap = technologyIcons;
   }
 
+  let projectLink;
+  if (projectData.link !== "none") {
+    projectLink = <a target="_blank" rel="noopener noreferrer" href={projectData.link}>Link</a>
+  }
+
   const icons = projectData.technologies.map(tech =>
     <img class="w-9 h-9" src={iconsMap[tech]} alt="Placeholder Icon"></img>
   );
@@ -22,9 +27,10 @@ function ProjectCard({projectData}) {
       <div class="ml-5 mr-5 mt-5 sm:mt-0">
         <h2 class="font-albert font-bold text-2xl text-lightModeText dark:text-darkModeText">{projectData.name}</h2>
         <p class="font-albert font-normal text-lightModeText dark:text-darkModeText">{projectData.shortDesc}</p>
-        <div class="flex">
+        <div class="flex mt-1 mb-1">
           {icons}
         </div>
+        <p class="font-albert font-bold text-lightModeText dark:text-darkModeText underline">{projectLink}</p>
       </div>
     </div>
   )
