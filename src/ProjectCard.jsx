@@ -1,8 +1,19 @@
-import { technologyIcons } from "./ProjectData"
+import { useContext } from "react";
+import { DarkModeContext } from "./DarkModeContext";
+import { technologyIcons, technologyIconsDarkMode } from "./ProjectData"
 
 function ProjectCard({projectData}) {
+  const {darkMode, setDarkMode} = useContext(DarkModeContext);
+
+  let iconsMap;
+  if (darkMode) {
+    iconsMap = technologyIconsDarkMode;
+  } else {
+    iconsMap = technologyIcons;
+  }
+
   const icons = projectData.technologies.map(tech =>
-    <img class="w-9 h-9" src={technologyIcons[tech]} alt="Placeholder Icon"></img>
+    <img class="w-9 h-9" src={iconsMap[tech]} alt="Placeholder Icon"></img>
   );
 
   return (
