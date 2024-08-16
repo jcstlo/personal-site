@@ -5,7 +5,9 @@ const technologyIcons = {
   mech: "mech-gear-light-mode.svg",
   csharp: "c-sharp.svg",
   c: "c.svg",
-  ti: "ti.svg"
+  ti: "ti.svg",
+  react: "react.svg",
+  javascript: "javascript.svg"
 }
 
 const technologyIconsDarkMode = {
@@ -15,11 +17,13 @@ const technologyIconsDarkMode = {
   mech: "mech-gear-dark-mode.svg",
   csharp: "c-sharp.svg",
   c: "c.svg",
-  ti: "ti.svg"
+  ti: "ti.svg",
+  react: "react.svg",
+  javascript: "javascript.svg"
 }
 
 const placeholderProj = {
-  name: "Placeholder Project Name",
+  name: "Work in progress!",
   shortDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
   mainImage: "question-mark-box.svg",
   link: "none",
@@ -45,4 +49,15 @@ const beehiveProj = {
   ]
 }
 
-export { technologyIcons, technologyIconsDarkMode, placeholderProj, beehiveProj };
+const codeEchoProj = {
+    name: "Code Templater",
+    shortDesc: "Created a simple tool to help users easily write repeatable code by first defining a template, and then seeing the output generate immediately. This was a quick idea I came up with to practice adding interactivity to a website with React states. I used Material UI to style the page.",
+    mainImage: "codeecho.jpg",
+    link: "https://codeecho-972.pages.dev",
+    technologies: [
+        "react",
+        "javascript",
+    ]
+}
+
+export { technologyIcons, technologyIconsDarkMode, placeholderProj, beehiveProj, codeEchoProj };
