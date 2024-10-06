@@ -2,6 +2,7 @@ const softwareSkills = [
     "Javascript/Typescript",
     "Python",
     "React",
+    "Next.js",
     "SQL",
     "HTML",
     "CSS",

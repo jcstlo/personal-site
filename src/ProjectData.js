@@ -7,7 +7,14 @@ const technologyIcons = {
   c: "c.svg",
   ti: "ti.svg",
   react: "react.svg",
-  javascript: "javascript.svg"
+  javascript: "javascript.svg",
+  typescript: "typescript.svg",
+  nextjs: "nextjs-light-mode.svg",
+  prisma: "prisma-light-mode.svg",
+  tailwind: "tailwind.svg",
+  digitalocean: "digitalocean.svg",
+  nginx: "nginx.svg",
+  docker: "docker.svg",
 }
 
 const technologyIconsDarkMode = {
@@ -19,7 +26,14 @@ const technologyIconsDarkMode = {
   c: "c.svg",
   ti: "ti.svg",
   react: "react.svg",
-  javascript: "javascript.svg"
+  javascript: "javascript.svg",
+  typescript: "typescript.svg",
+  nextjs: "nextjs-dark-mode.svg",
+  prisma: "prisma-dark-mode.svg",
+  tailwind: "tailwind.svg",
+  digitalocean: "digitalocean.svg",
+  nginx: "nginx.svg",
+  docker: "docker.svg",
 }
 
 const placeholderProj = {
@@ -31,8 +45,6 @@ const placeholderProj = {
     "question1",
     "question2",
     "question3",
-    "question1",
-    "question2"
   ]
 };
 
@@ -55,9 +67,46 @@ const codeEchoProj = {
     mainImage: "codeecho.jpg",
     link: "https://codeecho-972.pages.dev",
     technologies: [
-        "react",
-        "javascript",
+      "react",
+      "javascript",
     ]
 }
 
-export { technologyIcons, technologyIconsDarkMode, placeholderProj, beehiveProj, codeEchoProj };
+const blackjackTrainerProj = {
+  name: "Blackjack Strategy Trainer",
+  shortDesc: "Built an interactive web app to train users to make correct decisions in blackjack, based on blackjack basic strategy. I implemented the game and training logic, including the ability to split and/or double down when the current hand allows. For deployment, I used Docker to containerize the application, configured nginx as a reverse proxy (with Certbot for https), and deployed this project onto an Ubuntu VPS hosted on DigitalOcean.",
+  mainImage: "bjt.jpg",
+  link: "https://snaptags.app",
+  technologies: [
+    "typescript",
+    "react",
+    "tailwind",
+    "docker",
+    "nginx",
+    "digitalocean",
+  ]
+}
+
+const narroProj = {
+  name: "narro - Bookmark Search Engine",
+  shortDesc: "Built a full-stack application to manage and filter bookmarks. Created with Next.js (App Router), PostgreSQL to store user data, and Prisma to query the database. The main motivation behind this project was to build a better user interface to store and retrieve bookmarks, as I found that current bookmark apps are tedious to setup/organize and don't have strong search capabilities.",
+  mainImage: "narro.jpg",
+  link: "https://demo.narrobookmarks.app",
+  technologies: [
+    "typescript",
+    "nextjs",
+    "prisma",
+    "tailwind",
+    "docker",
+    "digitalocean",
+  ]
+}
+
+export { technologyIcons,
+         technologyIconsDarkMode,
+         placeholderProj,
+         beehiveProj,
+         codeEchoProj,
+         blackjackTrainerProj,
+         narroProj,
+       };
