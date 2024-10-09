@@ -13,7 +13,7 @@ function Index() {
             In my free time, you can find me playing ultimate, hiking, or working on projects.
           </p>
         </div>
-        <img class="w-60 h-60 sm:mr-16 object-cover rounded-full" src="me.jpg" alt="Personal site headshot placeholder"></img>
+        <img class="w-60 h-60 sm:mr-16 object-cover rounded-full drop-shadow-lg border border-gray-400" src="me.jpg" alt="Personal site headshot placeholder"></img>
       </div>
       <ContactMe></ContactMe>
       <Footer></Footer>
