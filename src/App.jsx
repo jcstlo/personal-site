@@ -6,8 +6,8 @@ function App() {
   return (
     <>
       <DarkModeContextProvider>
-        <div class="flex justify-center">
-          <div class="max-w-5xl w-full">
+        <div className="flex justify-center">
+          <div className="max-w-5xl w-full">
             <Header></Header>
             <Outlet />
           </div>
