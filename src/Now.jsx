@@ -1,6 +1,7 @@
 import ContactMe from "./ContactMe"
 import Footer from "./Footer"
 
+// NOTE: This page is unused.
 function Now() {
   return (
     <div className="animate-load-page">

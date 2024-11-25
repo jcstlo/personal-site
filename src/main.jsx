@@ -20,20 +20,12 @@ const router = createBrowserRouter([
         element: <Index />,
       },
       {
-        path: "now",
-        element: <Now />,
-      },
-      {
         path: "about",
         element: <About />,
       },
       {
         path: "projects",
         element: <Project />
-      },
-      {
-        path: "resume",
-        element: <p className="text-center font-albert font-bold text-3xl mt-48 text-lightModeText dark:text-darkModeText animate-load-page">Resume section is in progress!</p>
       },
     ],
   },

@@ -17,13 +17,7 @@ function Header() {
             <NavLink to={`about`} className={activeLink}>about</NavLink>
           </li>
           <li className="p-0 list-none mr-7 sm:mr-10 font-albert font-bold inline">
-            <NavLink to={`now`} className={activeLink}>now</NavLink>
-          </li>
-          <li className="p-0 list-none mr-7 sm:mr-10 font-albert font-bold inline">
             <NavLink to={`projects`} className={activeLink}>projects</NavLink>
-          </li>
-          <li className="p-0 list-none mr-7 sm:mr-10 font-albert font-bold inline">
-            <NavLink to={`resume`} className={activeLink}>resume</NavLink>
           </li>
         </ul>
         <div className="mr-0 sm:mr-5">
