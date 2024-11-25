@@ -38,9 +38,9 @@ function ProjectCard({projectData}) {
   );
 
   return (
-    <div className="flex mb-7 flex-col sm:flex-row items-center sm:items-start">
+    <div className="flex mb-7 ml-0 sm:ml-7 flex-col sm:flex-row items-center sm:items-start">
       <img className="w-full h-full max-w-72 max-h-72 sm:w-72 sm:h-72 border border-stone-800 rounded-2xl" src={projectData.mainImage} alt="Placeholder Icon"></img>
-      <div className="ml-5 mr-5 mt-5 sm:mt-0">
+      <div className="ml-7 mr-7 mt-5 sm:mt-0">
         <div className="flex items-center">
           <h2 className="font-albert font-bold text-2xl text-lightModeText dark:text-darkModeText mr-3">{projectData.name}</h2>
           {githubLink}
