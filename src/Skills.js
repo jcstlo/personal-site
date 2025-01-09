@@ -9,6 +9,7 @@ const softwareSkills = [
     "C#",
     "Git",
     "Docker",
+    "AWS",
     "MongoDB",
     "Node.js",
     "Express.js",
