@@ -117,7 +117,7 @@ const narroProj = {
 
 const fountainPenShowcaseProj = {
   name: "Fountain Pen Showcase",
-  shortDesc: "Created a full-stack application to record and share fountain pen collections. The app is built with Django 5.1 (Python), user data is stored in PostgreSQL, and user-uploaded images are stored on an AWS S3 bucket. Deployment is done using Docker on a DigitalOcean VPS, behind Gunicorn and nginx. The main motivation behind this project was to allow fountain pen enthusiasts to easily list and show their collections to others.",
+  shortDesc: "Created a full-stack application to record and share fountain pen collections. The app is built with Django 5.1 (Python), user data is stored in PostgreSQL, and user-uploaded images are stored on an AWS S3 bucket. Deployment is done using Docker on a DigitalOcean VPS, using Gunicorn as a WSGI server behind nginx. The main motivation behind this project was to allow fountain pen enthusiasts to easily list and show their collections to others.",
   mainImage: "fps.jpg",
   link: "https://fountainpenshowcase.com",
   github: "https://github.com/jcstlo/fp-showcase",
