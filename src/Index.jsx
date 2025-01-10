@@ -9,7 +9,7 @@ function Index() {
           <h1 className="text-5xl pb-7 font-albert font-bold mt-9 sm:mt-0 text-center sm:text-left text-lightModeText dark:text-darkModeText">Hi! I&apos;m Joseph.</h1>
           <p className="text-xl font-albert font-normal text-lightModeText dark:text-darkModeText">
             I am an engineer located in Vancouver, Canada.<br></br><br></br>
-            Currently, I am studying computer science with the aim of transitioning to software engineering, focusing on full-stack development.<br></br><br></br>
+            Currently, I am studying computer science with the aim of transitioning to software engineering, focusing on full-stack/backend development.<br></br><br></br>
             In my free time, you can find me playing ultimate, hiking, or working on projects.
           </p>
         </div>
