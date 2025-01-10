@@ -87,7 +87,7 @@ const blackjackTrainerProj = {
   name: "Blackjack Strategy Trainer",
   shortDesc: "Built an interactive web app to train users to make correct decisions in blackjack, based on blackjack basic strategy. I implemented the game and training logic from scratch, including the ability to split and/or double down when the current hand allows. For deployment, I used Docker to containerize the application, configured nginx as a reverse proxy (with Certbot for https), and deployed this project onto an Ubuntu VPS hosted on DigitalOcean.",
   mainImage: "bjt.jpg",
-  link: "https://snaptags.app",
+  link: "https://blackjacktrainer.dev",
   github: "https://github.com/jcstlo/blackjack-trainer",
   technologies: [
     "typescript",
