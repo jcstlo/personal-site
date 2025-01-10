@@ -45,7 +45,7 @@ function ProjectCard({projectData}) {
           <h2 className="font-albert font-bold text-2xl text-lightModeText dark:text-darkModeText mr-3">{projectData.name}</h2>
           {githubLink}
         </div>
-        <p className="font-albert font-bold text-lightModeText dark:text-darkModeText underline">{projectLink}</p>
+        <p className="font-albert font-bold text-lightModeLinkText dark:text-darkModeLinkText underline">{projectLink}</p>
         <p className="font-albert font-normal text-lightModeText dark:text-darkModeText my-2">{projectData.shortDesc}</p>
         <div className="flex mt-1 mb-1">
           {icons}

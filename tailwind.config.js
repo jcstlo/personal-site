@@ -19,6 +19,8 @@ export default {
     textColor: {
       'darkModeText': '#F9F9F9',
       'lightModeText': '#353535',
+      'darkModeLinkText': '#00b2e8',
+      'lightModeLinkText': '#288bed',
     },
     backgroundColor: {
       'darkModeBackground': '#1B1B1B',
