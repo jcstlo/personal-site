@@ -20,11 +20,11 @@ function About() {
       <div className="max-w-5xl">
         <h1 className="text-5xl mb-7 font-albert font-bold text-center sm:text-left ml-7 text-lightModeText dark:text-darkModeText">About Me</h1>
         <p className="font-albert font-normal text-xl ml-7 mr-7 text-lightModeText dark:text-darkModeText">
-          I am an aspiring software engineer located in Vancouver, BC. I&apos;m a career transitioner from the semiconductor industry. I am passionate about solving real-world problems, and I enjoy contributing to projects that have positive and meaningful impact.<br/><br/>
+          I am an aspiring software engineer located in Vancouver, BC, with professional experience in the semiconductor industry. I am passionate about solving real-world problems, and I enjoy contributing to projects that have positive and meaningful impact.<br/><br/>
 
           Most recently, I worked at Intel as an SoC Verification Engineer. Before that, I completed a bachelor&apos;s degree in Mechanical Engineering (Mechatronics specialization) at the University of British Columbia (UBC).<br/><br/>
 
-          In 2024, I made the decision to transition to software engineering. Now, I am currently enrolled in an online, accredited computer science degree, and I am learning more about full-stack development through working on side projects.<br/><br/>
+          In 2024, I made the decision to transition to software engineering. I am currently finishing up an online, accredited computer science degree, and I regularly work on side projects to further develop my skills.<br/><br/>
           </p>
         <h2 className="text-4xl font-albert font-bold mt-7 mb-7 text-center sm:text-left ml-7 text-lightModeText dark:text-darkModeText">Skills</h2>
         <h3 className="text-2xl font-albert font-bold mt-7 mb-7 text-center sm:text-left ml-7 text-lightModeText dark:text-darkModeText">Software</h3>
