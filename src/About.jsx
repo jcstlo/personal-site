@@ -20,7 +20,7 @@ function About() {
       <div className="max-w-5xl">
         <h1 className="text-5xl mb-7 font-albert font-bold text-center sm:text-left ml-7 text-lightModeText dark:text-darkModeText">About Me</h1>
         <p className="font-albert font-normal text-xl ml-7 mr-7 text-lightModeText dark:text-darkModeText">
-          I am an aspiring software engineer located in Vancouver, BC, with professional experience in the semiconductor industry. I am passionate about solving real-world problems, and I enjoy contributing to projects that have positive and meaningful impact.<br/><br/>
+          I am an engineer located in Vancouver, BC, with professional experience in the semiconductor industry. I am passionate about solving real-world problems, and I enjoy contributing to projects that have positive and meaningful impact.<br/><br/>
 
           Most recently, I worked at Intel as an SoC Verification Engineer. Before that, I completed a bachelor&apos;s degree in Mechanical Engineering (Mechatronics specialization) at the University of British Columbia (UBC).<br/><br/>
 
